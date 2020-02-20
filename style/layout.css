@@ -1,0 +1,22 @@
+* {
+    font-family: monospace;
+    color: #505050;
+}
+body {
+    padding: 55px;
+}
+
+h1 {
+    color: #404040;
+    border-bottom-style:  solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 2px;
+}
+
+a {
+    color: blue;
+}
+
+p {
+    font-size: 1.2em;
+}
