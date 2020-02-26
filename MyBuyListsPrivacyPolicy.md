@@ -9,18 +9,17 @@ This page is used to inform visitors regarding my policies with the collection,
 use, and disclosure of Personal Information if anyone decided to use my Service.
 
 If you choose to use my Service, then you agree to the collection and use of 
-information in relation to this policy. The Personal Information that I collect 
-is used for providing and improving the Service. I will not use or share your 
-information with anyone except as described in this Privacy Policy.
+information in relation to this policy.
 ```
 
-## Information Collection and Use
+## Information about collecting data
 ```
-For a better experience, while using our Service, I may require you to provide 
-us with certain personally identifiable information. The information that I 
-request will be retained on your device and is not collected by me in any way.
+* no user data is collected 
+* no device data is collected
+* only data entered in the application is stored in a local database of the app 
+  self and is destroyed when the user remove it from the app
 
-The app does not use third party services.
+* The app does not use third party services.
 ```
 
 ## Contact Us
