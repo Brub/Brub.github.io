@@ -1,6 +1,3 @@
-```
-  !!! This is a test version !!!
-```
 # 'My Buy List' Privacy Policy
 ```
 Bruno Biesemans built the My Buy Lists app as a Free app.
