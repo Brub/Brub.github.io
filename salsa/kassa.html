@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kassa Hofstade</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" href="../_stijl/kassaStyle.css">
+    <script type="text/javascript" src="../_scripts/kassaScript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header"><h1>Kassa Totaal: <span id="totaal">0</span></h1></div>
+        <div class="wrapper">
+            <div id="detail"></div>
+            <div class="items">
+                <h2>Bieren</h2>
+                <button onclick="updateData(1.8, 'Jupiler')">Jupiler</button>
+                <button onclick="updateData(1.8, 'Maes')">Maes</button>
+                <button onclick="updateData(2.1, 'Palm')">Palm</button>
+                <button onclick="updateData(2.8, 'Duvel')">Duvel</button>
+                <button onclick="updateData(2.5, 'Grimbergen donker')">Grimbergen donker</button>
+                <button onclick="updateData(3.3, 'Grimbergen Tripel')">Grimbergen Tripel</button>
+                <button onclick="updateData(2.5, 'Maneblusser')">Maneblusser</button>
+                <button onclick="updateData(3.3, 'Carolus')">Carolus</button>
+                <button onclick="updateData(2.3, 'Kriek Lindemans')">Kriek Lindemans</button>
+                
+                <h2>Wijnen</h2>
+                <button onclick="updateData(2.3,'Glas wit wijn')">Glas wit</button>
+                <button onclick="updateData(2.3, 'Glas roode wijn')">Glas rood</button>
+                <button onclick="updateData(6.3, 'Glas Cava')">Cava</button>
+                
+                <h2>Frisdranken</h2>
+                <button onclick="updateData(1.8, 'Cola')">Cola</button>
+                <button onclick="updateData(1.8, 'Cola Zero')">Cola Zero</button>
+                <button onclick="updateData(1.8, 'Fanta')">Fanta</button>
+                <button onclick="updateData(1.8, 'Ice-Tea')">Ice-Tea</button>
+                <button onclick="updateData(2.1, 'Tonic')">Tonic</button>
+                <button onclick="updateData(2.1, 'Looza')">Looza</button>
+                <button onclick="updateData(4.2, 'Eskimo')">Eskimo</button>
+                
+                <h2>Water</h2>  
+                <button onclick="updateData(1.8, 'Water plat')">Plat</button>
+                <button onclick="updateData(1.8, 'Water bruis')">Bruis</button>
+                
+                <h2>Warme dranken</h2>  
+                <button onclick="updateData(2.1, 'Koffie filter normaal')">Koffie filter normaal</button>
+                <button onclick="updateData(2.1, 'Koffie filter deca')">Koffie filter deca</button>
+                <button onclick="updateData(2.1, 'Thee')">Thee</button>
+                <button onclick="updateData(2.1, 'Royco Soep')">Royco Soep</button>
+                
+                <h2>Snaks</h2>  
+                <button onclick="updateData(1.8, 'Chips')">Chips</button>
+                <button onclick="updateData(1.8, 'Wafel')">Wafel</button>
+                <button onclick="updateData(1.8, 'Leo')">Leo</button>
+                <button onclick="updateData(1.8, 'Worst')">Worst</button>
+            </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

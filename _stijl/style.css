@@ -1,0 +1,100 @@
+/* ============================================================
+    this file is used to style the website
+============================================================ */
+* {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.welkom_pagina {
+    background-color: #2d2d30;
+}
+
+.welkom_pagina h1 {
+    color: #FF9900;
+    font: larger;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    ;
+    letter-spacing: 4px;
+    border-radius: 0;
+    opacity: 0.9;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #FF9900 !important;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+h3,
+h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #FF9900;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+/* carousel */
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+/* thumbnail */
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* btn */
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FF9900;
+    border-radius: 10;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover,
+.btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #FF9900;
+}
+
+.logo {
+    font-size: 100px;
+    color: #FF9900;
+}
